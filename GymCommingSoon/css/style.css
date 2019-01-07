@@ -1,0 +1,29 @@
+body {
+    background: url("../images/bgGymOp.png") no-repeat fixed center;
+    background-size: cover;
+    font-family: 'Shrikhand', cursive;
+}
+
+.container {
+    background-color: #9B4122;   
+    padding: 20px;
+    width: 50%; 
+    text-align: center;
+    margin: 40px auto; 
+    opacity: 0.6;
+    font-size: 1.2em;
+    border-radius: 10%;
+}
+
+.fa.fa-cog {
+    color: #A8AAAF;
+    font-size: 3em;
+}
+
+.phone-number {
+    padding: 20px;
+    font-size: 2em;
+    background-color: #948E90;
+    border-radius: 10px;
+    margin-top: 30px;
+}
