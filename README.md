@@ -1,1 +1,1 @@
-Project in course Complete front end development bootcamp on Udacity
+Project in course Complete front end development bootcamp on Udemy
