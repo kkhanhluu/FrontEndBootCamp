@@ -1,0 +1,80 @@
+html {
+    height: 100%; 
+}
+
+.navbar-brand {
+    color: black;
+}
+
+.nav-link:hover {
+    background-color: #55acee;
+}
+
+body {
+    background: url(https://images.unsplash.com/photo-1417733403748-83bbc7c05140?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&w=1080&fit=max&s=4c01399b01c8b4b1c5a8cfcdee7cfea2);
+    background-size: cover; 
+    background-position: center;
+    font-family: Catamaran;
+    color: white
+}
+
+.center  {
+    text-align: center;
+    margin: 120px auto;
+}
+
+.fa-twitter.fa-not-login {
+    color: rgb(0, 252, 126);
+}
+
+.heading-text {
+    background-color: lightblue;
+}
+
+.click-button {
+    border: none;
+    outline: none;
+    color: white;
+    background-color: #449D44;
+    padding: 20px;
+    width: 100px;
+    height: 100px;
+    box-sizing: border-box;
+}
+
+#login {    
+    margin-left: 50px;
+    min-width: 250px;
+    text-align: center;
+    background-color: rgba(255,255,255, 0.7);
+}
+
+#login p {
+    padding-left: 25px;
+    text-align: left;
+}
+
+#nav-login {
+    min-width: 250px;
+}
+
+#navbarDropdown {
+    float: right;
+}
+
+.btn-fb{
+    color: #fff;
+    background-color: #3b599d;
+}
+
+.btn-fb:hover{
+    color: #fff;
+    background-color: #496ebc;
+}
+
+.btn-tw{
+    color: #fff;
+    background-color: #55acee;
+    float: right;
+    margin-right: 10px;
+}
