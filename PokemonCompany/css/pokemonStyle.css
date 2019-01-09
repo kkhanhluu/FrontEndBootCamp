@@ -1,0 +1,91 @@
+* {
+    margin: 0; 
+    padding: 0; 
+    border: none; 
+    outline: none; 
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Dosis', sans-serif;
+}
+.navbar-brand {
+    color: white;
+}
+.navbar-brand:hover {
+    color: wheat;
+}
+.my-nav-link {
+    color: white;
+}
+.my-nav-link:hover {
+    background-color: #000;
+    border: solid 1px #28A745;
+    color: #28A745;
+}
+
+.carousel-caption p {
+    font-weight: bold;
+    color: black;
+}
+
+.carousel-caption h5 {
+    font-weight: bold;
+    color: black;
+    font-size: 2em;
+    text-transform: uppercase;
+}
+
+.member-wrapper {
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.card {
+    border: none;
+}
+
+.card-img-top {
+    width: 120px;
+    height: 220px;
+    margin: 0 auto;
+}
+.btn {
+    margin: 0 auto;
+   max-width: 200px;
+   max-height: 100px;
+}
+
+.div-text {
+    margin: 200px auto;
+    text-align: center;
+}
+
+.pokemon-img {
+    max-width: 515px;
+    max-height: 515px;
+}
+
+.carousel-caption {
+    background-color: #ddd;
+    opacity: 0.8;
+    width: 100%; 
+    right: 0% !important;
+    left: 0% !important;
+    bottom: 150px;
+}
+
+ol.carousel-indicators li {
+    background-color: black;
+}
+
+ol.carousel-indicators .active {
+    background-color: khaki;
+}
+
+.carousel-control-prev-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23000' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E");
+}
+
+.carousel-control-next-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23000' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E");
+}
