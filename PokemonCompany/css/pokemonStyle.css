@@ -9,20 +9,26 @@ body {
     font-family: 'Dosis', sans-serif;
 }
 .navbar-brand {
-    color: white;
+    color: black;
 }
 .navbar-brand:hover {
     color: wheat;
 }
 .my-nav-link {
-    color: white;
+    color: #28A745;
 }
 .my-nav-link:hover {
     background-color: #000;
     border: solid 1px #28A745;
     color: #28A745;
 }
-
+.custom-toggler.navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(0, 0, 0, 0.5)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+  }
+  
+.custom-toggler.navbar-toggler {
+border-color: rgb(255,102,203);
+} 
 .carousel-caption p {
     font-weight: bold;
     color: black;
@@ -51,10 +57,14 @@ body {
 }
 .btn {
     margin: 0 auto;
-   max-width: 200px;
-   max-height: 100px;
+    max-width: 200px;
+    max-height: 100px;
 }
 
+.btn.btn-default {
+    background-color: #3B6C9B;
+    color: white;
+}
 .div-text {
     margin: 200px auto;
     text-align: center;
@@ -88,4 +98,8 @@ ol.carousel-indicators .active {
 
 .carousel-control-next-icon {
     background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23000' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E");
+}
+
+footer {
+    margin: 0 100px;
 }

@@ -18,11 +18,13 @@
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-md bg-dark">
-        <a class="navbar-brand" href="#">Pokemon</a>
+    <nav id="top" class="navbar navbar-expand-md navbar-default">
+        <a class="navbar-brand" href="#">
+            <img src="/docs/4.2/assets/brand/bootstrap-solid.svg" width="30" height="30" class="d-inline-block align-top" alt=""> Bootstrap
+        </a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
             aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
+            <span class="custom-toggler navbar-toggler-icon"></span>
         </button>
 
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
@@ -48,14 +50,14 @@
                         <a class="dropdown-item" href="#">London</a>
                         <a class="dropdown-item" href="#">Hanoi</a>
                         <div class="dropdown-divider"></div>
-                        <p>Upcomming gigs</p>
+                        <a class="dropdown-header" href="#">Upcomming digging</a>
                         <a class="dropdown-item" href="#">Sai Gon</a>
                         <a class="dropdown-item" href="#">Da Nang</a>
                     </div>
                 </li>
             </ul>
             <div class="form-inline my-2 my-lg-0">
-                <i class="fas fa-sign-in-alt fa-2x" style="margin-right: 10px; color: white"></i>
+                <i class="fas fa-sign-in-alt fa-2x" style="margin-right: 10px; color: balck"></i>
                 <a href="#" class="btn btn-outline-success my-2 my-sm-0">Sign in</a>
             </div>
         </div>
@@ -74,6 +76,9 @@
                     <h5>Some headline</h5>
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facilis aliquam molestiae eligendi laborum
                         animi placeat itaque magni assumenda. Neque, porro?</p>
+                    <p>
+                        <a class="btn btn-default" href="#">Learn more</a>
+                    </p>
                 </div>
             </div>
             <div class="carousel-item">
@@ -82,6 +87,10 @@
                     <h5>Some headline</h5>
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facilis aliquam molestiae eligendi laborum
                         animi placeat itaque magni assumenda. Neque, porro?</p>
+                    <p>
+                        <a class="btn btn-default" href="#">Learn more</a>
+                    </p>
+
                 </div>
 
             </div>
@@ -91,6 +100,9 @@
                     <h5>Some headline</h5>
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facilis aliquam molestiae eligendi laborum
                         animi placeat itaque magni assumenda. Neque, porro?</p>
+                    <p>
+                        <a class="btn btn-default" href="#">Learn more</a>
+                    </p>
                 </div>
 
             </div>
@@ -108,27 +120,27 @@
 
     <div class="container member-wrapper">
         <div class="row">
-            <div class="div-member col-4">
+            <div class="div-member col-md-4 col-lg-4">
                 <div class="card">
-                    <img src="images/avatar1.png" class="card-img-top rounded-circle" alt="member 1">
+                    <img src="images/avatar1.png" class="card-img-top rounded-circle animated wobble" alt="member 1">
                     <div class="card-body">
                         <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                     </div>
                     <a href="#" class="btn btn-primary">View Profile</a>
                 </div>
             </div>
-            <div class="div-member col-4">
+            <div class="div-member col-md-4 col-lg-4">
                 <div class="card">
-                    <img src="images/avatar2.png" class="card-img-top rounded-circle" alt="member 1">
+                    <img src="images/avatar2.png" class="card-img-top rounded-circle animated wobble" alt="member 1">
                     <div class="card-body">
                         <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                     </div>
                     <a href="#" class="btn btn-primary">View Profile</a>
                 </div>
             </div>
-            <div class="div-member col-4">
+            <div class="div-member col-md-4 col-lg-4">
                 <div class="card">
-                    <img src="images/avatar3.png" class="card-img-top rounded-circle" alt="member 1">
+                    <img src="images/avatar3.png" class="card-img-top rounded-circle animated wobble" alt="member 1">
                     <div class="card-body">
                         <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                     </div>
@@ -137,32 +149,32 @@
             </div>
         </div>
         <div class="row">
-            <div class="col-6 div-text">
+            <div class="col-md-6 col-lg-6 div-text">
                 <h2>First heading goes here. This looks great</h2>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo recusandae reiciendis eum labore accusantium
                     ex maiores, excepturi voluptates itaque odit.</p>
             </div>
-            <div class="col-6 div-img">
+            <div class="col-md-6 col-lg-6 div-img">
                 <img class="pokemon-img" src="images/Charmander.png" alt="Charmander">
             </div>
         </div>
         <div class="row">
-            <div class="col-6 div-img">
+            <div class="col-md-6 col-lg-6 div-img">
                 <img class="pokemon-img" src="images/Eevee.png" alt="Charmander">
             </div>
-            <div class="col-6 div-text">
+            <div class="col-md-6 col-lg-6 div-text">
                 <h2>First heading goes here. This looks great</h2>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo recusandae reiciendis eum labore accusantium
                     ex maiores, excepturi voluptates itaque odit.</p>
             </div>
         </div>
         <div class="row">
-            <div class="col-6 div-text">
+            <div class="col-md-6 col-lg-6 div-text">
                 <h2>First heading goes here. This looks great</h2>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo recusandae reiciendis eum labore accusantium
                     ex maiores, excepturi voluptates itaque odit.</p>
             </div>
-            <div class="col-6 div-img">
+            <div class="col-md-6 col-lg-6 div-img">
                 <img class="pokemon-img" src="images/Pikachu.png" alt="Charmander">
             </div>
         </div>
@@ -176,6 +188,17 @@
         crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
         crossorigin="anonymous"></script>
+
+    <footer>
+        <p class="float-right">
+            <i class="fas fa-arrow-alt-circle-up"></i>
+            <a href="#top"> Move to top</a>
+        </p>
+        <p>&copy; 2018 Pokemonm, Inc.
+            <a href="#">Terms</a> &middot;
+            <a href="#">Conditions</a>
+        </p>
+    </footer>
 </body>
 
 </html>
