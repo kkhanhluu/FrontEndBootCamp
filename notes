@@ -1,0 +1,60 @@
+0. for .. in vs for .. of: 
+- for...of loop for iterable objects and for...in loop for enummerable objects 
+var a = [3, 5, 7]; 
+a.foo = 10; 
+for (let item in a) {
+    console.log(item)
+} -------------------------------> output 0, 1, 2, "foo"
+
+for (let item of a ) {
+    console.log(item)
+} -------------------------------> output: 3, 5, 7;
+1.function vs method: 
+
+-function are objects. object have properties: key-value pair. A property can be object. When a function
+is value of a property, function is a method. 
+
+2. this key word: 
+- function: global scope 
+- method: owner object 
+- alone: global scope
+- function + strict mode: undefined
+- event: elements that received the event
+
+3. propotype: 
+- all js objects inherit properties and methods from a prototype 
+- cannot add a new property to an existing object constructor -> use prototype
+4. parameters vs arguments
+- parameters are the names listed in the function definition
+- arguments are the real values passed to the function
+5. call() and apply() 
+- call() can be used to invoke a method with an owner object as an argument 
+var person = {
+  fullName: function(counttry) {
+    return this.firstName + " " + this.lastName + "lives in " + country;
+  }
+}
+var person1 = {
+  firstName:"John",
+  lastName: "Doe",
+}
+person.fullName.call(person1, "Vietnam"); // Output: John Doe lives in Vietnam
+
+- apply() is similar to call() but call() takes arguments seperately, apply() takes arguemts as an array
+var person = {
+  fullName: function(country, city) {
+    return this.firstName + " " + this.lastName + " lives in " + country + ", " + city;
+  }
+}
+var person1 = {
+  firstName:"John",
+  lastName: "Doe",
+}
+person.fullName.apply(person1, ["Vietnam", "Hanoi"]) // Output: John Doe lives in Vietnam, Hanoi
+
+6. copy array
+- shallow copy: 
+var arr1 = [1, 2, 3]; 
+var arr2 = arr1; 
+- deep copy 
+var arr3 = [...arr1];

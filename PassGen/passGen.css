@@ -1,0 +1,8 @@
+body {
+    height: 600px;
+    background: radial-gradient(circle, #1a82f7, #2F2727) no-repeat center;
+}
+
+.container {
+    width: 50%; 
+}
