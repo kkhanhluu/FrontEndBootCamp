@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 body{
     padding-top: 20px;
 }
@@ -52,4 +53,39 @@ body{
 
 
 
+=======
+* {
+    margin: 0; 
+    padding: 0; 
+    outline: none; 
+    border: none; 
+    box-sizing: border-box; 
+}
+h1 {
+    padding-top: 30px;
+    padding-left: 80px;
+    color: #777777;
+    padding-bottom: 20px;
+}
+
+/* .nav-link {
+    width: 16.667%;
+} */
+
+.nav-link:hover {
+    background-color: #EEEEEE;
+}
+
+.jumbotron h1 {
+    color: black;
+}
+
+.div-portfolio a {
+    margin: 0 auto;
+}
+
+.container {
+    margin-bottom: 40px;
+}
+>>>>>>> bdb2561259adbaa49a9eeadab01f265f6a968b61
 
