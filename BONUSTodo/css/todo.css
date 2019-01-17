@@ -5,3 +5,19 @@ input {
 body {
     background-color: #F5F5DC;
 }
+
+li {
+    list-style: none;
+}
+
+.btn-remove {
+   float: none !important; 
+   margin-top: -15px; 
+   margin-left: 10px;
+}
+
+#type {
+    margin-left: 40%;
+    margin-bottom: 10%; 
+    padding-top: 1000px;   
+}
