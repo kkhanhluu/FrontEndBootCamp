@@ -3,13 +3,14 @@
 @import "abstracts/variables";
 
 @import "base/base"; 
-@import "base/animation"; 
+@import "base/animation";   
 @import "base/typography"; 
 @import "base/utitlities"; 
 
 @import "Components/button"; 
 @import "Components/composition";
 @import "Components/feature-box"; 
+@import "Components/card";
 
 @import "layout/header"; 
 @import "layout/grid";
