@@ -629,6 +629,21 @@ body {
     line-height: 1; }
   .popup__close:hover {
     color: #55c57a; }
+  @media (max-width: 56.25em) {
+    .popup__content {
+      display: inline-block; }
+    .popup__left {
+      width: 100%;
+      display: inline-block; }
+    .popup__right {
+      width: 100%;
+      display: inline-block;
+      text-align: center; }
+    .popup__text {
+      text-align: left; }
+    .popup__img {
+      width: 49%;
+      display: inline-block; } }
 
 .header {
   height: 95vh;

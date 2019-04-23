@@ -72,10 +72,37 @@
             display: inline-block; 
             line-height: 1; 
         }
-
+        
         &:hover {
             color: $color-primary; 
         }
+    }
+
+    @include respond(tab-port) {
+        &__content {
+            display: inline-block;
+        }
+
+        &__left {
+            width: 100%;
+            display: inline-block;
+        }
+
+        &__right {
+            width: 100%; 
+            display: inline-block; 
+            text-align: center; 
+        }
+
+        &__text {
+            text-align: left;
+        }
+
+        &__img {
+            width: 49%;
+            display: inline-block;
+        }
+
     }
 
 }
