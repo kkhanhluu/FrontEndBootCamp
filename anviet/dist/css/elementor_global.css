@@ -1,0 +1,599 @@
+.elementor-widget-heading.elementor-widget-heading .elementor-heading-title {
+  color: #6ec1e4;
+}
+.elementor-widget-heading .elementor-heading-title {
+  font-family: 'Roboto', Sans-serif;
+  font-weight: 600;
+}
+.elementor-widget-image .widget-image-caption {
+  color: #7a7a7a;
+  font-family: 'Roboto', Sans-serif;
+  font-weight: 400;
+}
+.elementor-widget-text-editor {
+  color: #7a7a7a;
+  font-family: 'Roboto', Sans-serif;
+  font-weight: 400;
+}
+.elementor-widget-text-editor.elementor-drop-cap-view-stacked
+  .elementor-drop-cap {
+  background-color: #6ec1e4;
+}
+.elementor-widget-text-editor.elementor-drop-cap-view-framed
+  .elementor-drop-cap,
+.elementor-widget-text-editor.elementor-drop-cap-view-default
+  .elementor-drop-cap {
+  color: #6ec1e4;
+  border-color: #6ec1e4;
+}
+.elementor-widget-button a.elementor-button,
+.elementor-widget-button .elementor-button {
+  font-family: 'Roboto', Sans-serif;
+  font-weight: 500;
+  background-color: #61ce70;
+}
+.elementor-widget-divider {
+  --divider-border-color: #54595f;
+}
+.elementor-widget-divider .elementor-divider__text {
+  color: #54595f;
+  font-family: 'Roboto Slab', Sans-serif;
+  font-weight: 400;
+}
+.elementor-widget-divider.elementor-view-stacked .elementor-icon {
+  background-color: #54595f;
+}
+.elementor-widget-divider.elementor-view-framed .elementor-icon,
+.elementor-widget-divider.elementor-view-default .elementor-icon {
+  color: #54595f;
+  border-color: #54595f;
+}
+.elementor-widget-divider.elementor-view-framed .elementor-icon,
+.elementor-widget-divider.elementor-view-default .elementor-icon svg {
+  fill: #54595f;
+}
+.elementor-widget-image-box
+  .elementor-image-box-content
+  .elementor-image-box-title {
+  color: #6ec1e4;
+  font-family: 'Roboto', Sans-serif;
+  font-weight: 600;
+}
+.elementor-widget-image-box
+  .elementor-image-box-content
+  .elementor-image-box-description {
+  color: #7a7a7a;
+  font-family: 'Roboto', Sans-serif;
+  font-weight: 400;
+}
+.elementor-widget-icon.elementor-view-stacked .elementor-icon {
+  background-color: #6ec1e4;
+}
+.elementor-widget-icon.elementor-view-framed .elementor-icon,
+.elementor-widget-icon.elementor-view-default .elementor-icon {
+  color: #6ec1e4;
+  border-color: #6ec1e4;
+}
+.elementor-widget-icon.elementor-view-framed .elementor-icon,
+.elementor-widget-icon.elementor-view-default .elementor-icon svg {
+  fill: #6ec1e4;
+}
+.elementor-widget-icon-box.elementor-view-stacked .elementor-icon {
+  background-color: #6ec1e4;
+}
+.elementor-widget-icon-box.elementor-view-framed .elementor-icon,
+.elementor-widget-icon-box.elementor-view-default .elementor-icon {
+  fill: #6ec1e4;
+  color: #6ec1e4;
+  border-color: #6ec1e4;
+}
+.elementor-widget-icon-box
+  .elementor-icon-box-content
+  .elementor-icon-box-title {
+  color: #6ec1e4;
+  font-family: 'Roboto', Sans-serif;
+  font-weight: 600;
+}
+.elementor-widget-icon-box
+  .elementor-icon-box-content
+  .elementor-icon-box-description {
+  color: #7a7a7a;
+  font-family: 'Roboto', Sans-serif;
+  font-weight: 400;
+}
+.elementor-widget-star-rating .elementor-star-rating__title {
+  color: #7a7a7a;
+  font-family: 'Roboto', Sans-serif;
+  font-weight: 400;
+}
+.elementor-widget-image-carousel .elementor-image-carousel-caption {
+  font-family: 'Roboto', Sans-serif;
+  font-weight: 500;
+}
+.elementor-widget-image-gallery .gallery-item .gallery-caption {
+  font-family: 'Roboto', Sans-serif;
+  font-weight: 500;
+}
+.elementor-widget-icon-list .elementor-icon-list-item:not(:last-child):after {
+  border-color: #7a7a7a;
+}
+.elementor-widget-icon-list .elementor-icon-list-icon i {
+  color: #6ec1e4;
+}
+.elementor-widget-icon-list .elementor-icon-list-icon svg {
+  fill: #6ec1e4;
+}
+.elementor-widget-icon-list .elementor-icon-list-text {
+  color: #54595f;
+}
+.elementor-widget-icon-list .elementor-icon-list-item {
+  font-family: 'Roboto', Sans-serif;
+  font-weight: 400;
+}
+.elementor-widget-counter .elementor-counter-number-wrapper {
+  color: #6ec1e4;
+  font-family: 'Roboto', Sans-serif;
+  font-weight: 600;
+}
+.elementor-widget-counter .elementor-counter-title {
+  color: #54595f;
+  font-family: 'Roboto Slab', Sans-serif;
+  font-weight: 400;
+}
+.elementor-widget-progress .elementor-progress-wrapper .elementor-progress-bar {
+  background-color: #6ec1e4;
+}
+.elementor-widget-progress .elementor-title {
+  color: #6ec1e4;
+  font-family: 'Roboto', Sans-serif;
+  font-weight: 400;
+}
+.elementor-widget-testimonial .elementor-testimonial-content {
+  color: #7a7a7a;
+  font-family: 'Roboto', Sans-serif;
+  font-weight: 400;
+}
+.elementor-widget-testimonial .elementor-testimonial-name {
+  color: #6ec1e4;
+  font-family: 'Roboto', Sans-serif;
+  font-weight: 600;
+}
+.elementor-widget-testimonial .elementor-testimonial-job {
+  color: #54595f;
+  font-family: 'Roboto Slab', Sans-serif;
+  font-weight: 400;
+}
+.elementor-widget-tabs .elementor-tab-title {
+  color: #6ec1e4;
+  font-family: 'Roboto', Sans-serif;
+  font-weight: 600;
+}
+.elementor-widget-tabs .elementor-tab-title.elementor-active {
+  color: #61ce70;
+}
+.elementor-widget-tabs .elementor-tab-content {
+  color: #7a7a7a;
+  font-family: 'Roboto', Sans-serif;
+  font-weight: 400;
+}
+.elementor-widget-accordion .elementor-accordion .elementor-tab-title {
+  color: #6ec1e4;
+  font-family: 'Roboto', Sans-serif;
+  font-weight: 600;
+}
+.elementor-widget-accordion
+  .elementor-accordion
+  .elementor-tab-title.elementor-active {
+  color: #61ce70;
+}
+.elementor-widget-accordion .elementor-accordion .elementor-tab-content {
+  color: #7a7a7a;
+  font-family: 'Roboto', Sans-serif;
+  font-weight: 400;
+}
+.elementor-widget-toggle .elementor-toggle .elementor-tab-title {
+  color: #6ec1e4;
+  font-family: 'Roboto', Sans-serif;
+  font-weight: 600;
+}
+.elementor-widget-toggle
+  .elementor-toggle
+  .elementor-tab-title.elementor-active {
+  color: #61ce70;
+}
+.elementor-widget-toggle .elementor-toggle .elementor-tab-content {
+  color: #7a7a7a;
+  font-family: 'Roboto', Sans-serif;
+  font-weight: 400;
+}
+.elementor-widget-alert .elementor-alert-title {
+  font-family: 'Roboto', Sans-serif;
+  font-weight: 600;
+}
+.elementor-widget-alert .elementor-alert-description {
+  font-family: 'Roboto', Sans-serif;
+  font-weight: 400;
+}
+.elementor-widget-sc-heading .section-heading h4 {
+  font-family: 'Roboto', Sans-serif;
+  font-weight: 600;
+}
+.elementor-widget-sc-heading .section-heading h2 {
+  font-family: 'Roboto', Sans-serif;
+  font-weight: 600;
+}
+.elementor-widget-sc-heading .section-heading p {
+  font-family: 'Roboto', Sans-serif;
+  font-weight: 400;
+}
+.elementor-widget-struata_dualheading .dual-heading span.one {
+  font-family: 'Roboto', Sans-serif;
+  font-weight: 600;
+}
+.elementor-widget-struata_dualheading .dual-heading span.two {
+  font-family: 'Roboto', Sans-serif;
+  font-weight: 600;
+}
+.elementor-widget-sc_button .wt-button-wrap .wt-btn {
+  font-family: 'Roboto', Sans-serif;
+  font-weight: 600;
+}
+.elementor-widget-sc_promo_box .dl-promo-item h3 {
+  font-family: 'Roboto', Sans-serif;
+  font-weight: 600;
+}
+.elementor-widget-sc_promo_box .dl-promo-item p {
+  font-family: 'Roboto', Sans-serif;
+  font-weight: 600;
+}
+.elementor-widget-sc_promo_box .dl-promo-item a.read-more {
+  font-family: 'Roboto Slab', Sans-serif;
+  font-weight: 400;
+}
+.elementor-widget-struqta_main_slider .dl-slider .dl-caption.big {
+  font-family: 'Roboto', Sans-serif;
+  font-weight: 600;
+  color: #6ec1e4;
+}
+.elementor-widget-struqta_main_slider .dl-slider .dl-caption.medium {
+  font-family: 'Roboto', Sans-serif;
+  font-weight: 600;
+  color: #6ec1e4;
+}
+.elementor-widget-struqta_main_slider .dl-slider .dl-caption.small {
+  font-family: 'Roboto', Sans-serif;
+  font-weight: 600;
+  color: #6ec1e4;
+}
+.elementor-widget-struqta_main_slider .dl-slider .dl-btn {
+  font-family: 'Roboto', Sans-serif;
+  font-weight: 600;
+  color: #6ec1e4;
+}
+.elementor-widget-struqta_main_slider .dl-slider .dl-btn:hover {
+  color: #6ec1e4;
+}
+.elementor-widget-struqta_main_slider .numbers .slick-dots li button:before {
+  font-family: 'Roboto', Sans-serif;
+  font-weight: 600;
+  color: #6ec1e4;
+}
+.elementor-widget-struqta_main_slider .dots .slick-dots li:before {
+  background-color: #6ec1e4;
+}
+.elementor-widget-struqta_main_slider .dots-stroke .slick-dots li button {
+  background-color: #6ec1e4;
+}
+.elementor-widget-struqta_main_slider .lines .slick-dots li button:before {
+  background-color: #6ec1e4;
+}
+.elementor-widget-struqta_main_slider .dots .slick-dots li.slick-active:before {
+  background-color: #6ec1e4;
+}
+.elementor-widget-struqta_main_slider
+  .dots-stroke
+  .slick-dots
+  li.slick-active
+  button {
+  background-color: #6ec1e4;
+}
+.elementor-widget-struqta_main_slider .dots-stroke .slick-dots li.slick-active {
+  box-shadow: 0 0 0 2px #6ec1e4;
+}
+.elementor-widget-struqta_main_slider .numbers .slick-dots li:after {
+  background-color: #6ec1e4;
+}
+.elementor-widget-struqta_main_slider
+  .lines
+  .slick-dots
+  li.slick-active
+  button:before {
+  background-color: #6ec1e4;
+}
+.elementor-widget-struqta_main_slider
+  .lines
+  .slick-dots
+  li.slick-active
+  button:after {
+  background-color: #6ec1e4;
+}
+.elementor-widget-struqta_main_slider .dl-slider .slick-arrow {
+  color: #6ec1e4;
+}
+.elementor-widget-struqta_main_slider .dl-slider .slick-arrow:hover {
+  color: #6ec1e4;
+}
+.elementor-widget-sc_working_process
+  .process-items
+  .working-process-box
+  .icon-box
+  span {
+  font-family: 'Roboto', Sans-serif;
+  font-weight: 600;
+}
+.elementor-widget-sc_working_process
+  .process-items
+  .working-process-box
+  .content-box
+  h3 {
+  font-family: 'Roboto', Sans-serif;
+  font-weight: 600;
+}
+.elementor-widget-sc_working_process
+  .process-items
+  .working-process-box
+  .content-box
+  p {
+  font-family: 'Roboto', Sans-serif;
+  font-weight: 400;
+}
+.elementor-widget-struqta_servic .dl-service .service-title {
+  font-family: 'Roboto', Sans-serif;
+  font-weight: 600;
+  color: #6ec1e4;
+}
+.elementor-widget-struqta_servic .dl-service .service-title a {
+  color: #6ec1e4;
+}
+.elementor-widget-struqta_servic .dl-service .service-title a:hover {
+  color: #6ec1e4;
+}
+.elementor-widget-struqta_servic .dl-service-style-3 .content h4::before {
+  background-color: #6ec1e4;
+}
+.elementor-widget-struqta_servic .dl-service .content p {
+  font-family: 'Roboto', Sans-serif;
+  font-weight: 600;
+  color: #6ec1e4;
+}
+.elementor-widget-struqta_servic .dl-service-style-1 .content p::before {
+  background-color: #6ec1e4;
+}
+.elementor-widget-struqta_servic .dl-service-style-1 .content p::after {
+  background-color: #6ec1e4;
+}
+.elementor-widget-struqta_servic .dl-service .dl-icon i {
+  color: #6ec1e4;
+}
+.elementor-widget-struqta_servic .dl-service .dl-icon {
+  border-color: #6ec1e4;
+}
+.elementor-widget-struqta_servic .dl-service:hover .dl-icon i {
+  color: #6ec1e4;
+}
+.elementor-widget-struqta_servic .dl-service:hover .dl-icon {
+  border-color: #6ec1e4;
+}
+.elementor-widget-struqta_servic .dl-service a.readmore_btn {
+  color: #6ec1e4;
+  font-family: 'Roboto', Sans-serif;
+  font-weight: 600;
+}
+.elementor-widget-struqta_servic .dl-service a.readmore_btn:hover {
+  color: #6ec1e4;
+}
+.elementor-widget-sc_service_list
+  .service-items
+  .service-box
+  .service-content
+  h3 {
+  font-family: 'Roboto', Sans-serif;
+  font-weight: 600;
+}
+.elementor-widget-sc_service_list
+  .service-items
+  .service-box
+  .service-content
+  p {
+  font-family: 'Roboto', Sans-serif;
+  font-weight: 400;
+}
+.elementor-widget-struqta_flip_box
+  .dl-flip-box-front-inner
+  .dl-flip-box-heading {
+  font-family: 'Roboto Slab', Sans-serif;
+  font-weight: 400;
+}
+.elementor-widget-struqta_flip_box .dl-flip-box-front-inner .dl-text p {
+  font-family: 'Roboto', Sans-serif;
+  font-weight: 400;
+}
+.elementor-widget-struqta_flip_box
+  .dl-flip-box-back-inner
+  .dl-flip-box-heading-back {
+  font-family: 'Roboto Slab', Sans-serif;
+  font-weight: 400;
+}
+.elementor-widget-struqta_flip_box .dl-flip-box-back-inner .dl-text p {
+  font-family: 'Roboto', Sans-serif;
+  font-weight: 400;
+}
+.elementor-widget-sc_video_box .dl-vb-1 .triangle {
+  stroke: #6ec1e4;
+}
+.elementor-widget-sc_video_box .dl-vb-2 {
+  color: #54595f;
+}
+.elementor-widget-sc_video_box .dl-vb-3 svg {
+  fill: #54595f;
+}
+.elementor-widget-sc_video_box .dl-vb-1:hover .triangle {
+  stroke: #6ec1e4;
+}
+.elementor-widget-sc_video_box .dl-vb-1 .circle {
+  stroke: #6ec1e4;
+}
+.elementor-widget-sc_video_box .dl-vb-2:hover {
+  color: #54595f;
+}
+.elementor-widget-sc_video_box .dl-vb-3:hover svg {
+  fill: #54595f;
+}
+.elementor-widget-sc_projects .dl-filter-wrap .dl-project-filter li {
+  font-family: 'Roboto', Sans-serif;
+  font-weight: 400;
+}
+.elementor-widget-sc_projects .dl-project-box .project-content h3 {
+  font-family: 'Roboto', Sans-serif;
+  font-weight: 600;
+}
+.elementor-widget-sc_projects .dl-project-box .project-content span {
+  font-family: 'Roboto', Sans-serif;
+  font-weight: 400;
+}
+.elementor-widget-struqta_pricing_table .dl-pricing-table-title {
+  font-family: 'Roboto Slab', Sans-serif;
+  font-weight: 400;
+}
+.elementor-widget-struqta_pricing_table .dl-pricing-table-price-text {
+  font-family: 'Roboto', Sans-serif;
+  font-weight: 400;
+}
+.elementor-widget-struqta_pricing_table .dl-pricing-table-currency {
+  font-family: 'Roboto', Sans-serif;
+  font-weight: 400;
+}
+.elementor-widget-struqta_pricing_table .dl-pricing-table-period {
+  font-family: 'Roboto', Sans-serif;
+  font-weight: 400;
+}
+.elementor-widget-struqta_pricing_table .dl-pricing-table-features-title {
+  font-family: 'Roboto Slab', Sans-serif;
+  font-weight: 400;
+}
+.elementor-widget-struqta_pricing_table .dl-pricing-table-features-list > li {
+  font-family: 'Roboto', Sans-serif;
+  font-weight: 400;
+}
+.elementor-widget-struqta_pricing_table .dl-pricing-table-btn {
+  font-family: 'Roboto', Sans-serif;
+  font-weight: 500;
+}
+.elementor-widget-struqta_pricing_table .dl-pricing-table-badge {
+  font-family: 'Roboto', Sans-serif;
+  font-weight: 400;
+}
+.elementor-widget-sc_list .wt-list .list-item h4 {
+  font-family: 'Roboto Slab', Sans-serif;
+  font-weight: 400;
+}
+.elementor-widget-sc_list .wt-list .list-item p {
+  font-family: 'Roboto Slab', Sans-serif;
+  font-weight: 400;
+}
+.elementor-widget-sc_list .wt-list .list-item .list-icon {
+  font-family: 'Roboto', Sans-serif;
+  font-weight: 600;
+}
+.elementor-widget-struqta_testimonials .testi-item h3 {
+  font-family: 'Roboto', Sans-serif;
+  font-weight: 600;
+}
+.elementor-widget-struqta_testimonials .testi-item h3 span {
+  font-family: 'Roboto Slab', Sans-serif;
+  font-weight: 400;
+}
+.elementor-widget-struqta_testimonials .testi-item p {
+  font-family: 'Roboto Slab', Sans-serif;
+  font-weight: 400;
+}
+.elementor-widget-struqta_team .team-item .team-content h3 {
+  font-family: 'Roboto', Sans-serif;
+  font-weight: 600;
+}
+.elementor-widget-struqta_team .team-item .team-content span {
+  font-family: 'Roboto', Sans-serif;
+  font-weight: 400;
+}
+.elementor-widget-sc-blog .el-blog-posts .entry_title {
+  font-family: 'Roboto', Sans-serif;
+  font-weight: 600;
+}
+.elementor-widget-sc-blog .el-blog-posts .meta-info .post-cat {
+  font-family: 'Roboto', Sans-serif;
+  font-weight: 400;
+}
+.elementor-widget-sc-blog .el-blog-posts .entry_header .post-date {
+  font-family: 'Roboto', Sans-serif;
+  font-weight: 400;
+}
+.elementor-widget-sc-blog .el-blog-posts .entry_text .entry-excerpt {
+  font-family: 'Roboto', Sans-serif;
+  font-weight: 400;
+}
+.elementor-widget-sc-blog .el-blog-posts .blog-post-inner .readmore {
+  font-family: 'Roboto', Sans-serif;
+  font-weight: 400;
+}
+.elementor-widget-struqta_skill_bars .dl-skill-info {
+  font-family: 'Roboto', Sans-serif;
+  font-weight: 400;
+}
+.elementor-widget-struqta_business_hour
+  .dl-business-hours
+  .dl-single-hrs
+  span.day {
+  font-family: 'Roboto', Sans-serif;
+  font-weight: 600;
+}
+.elementor-widget-struqta_business_hour
+  .dl-business-hours
+  .dl-single-hrs
+  span.time {
+  font-family: 'Roboto', Sans-serif;
+  font-weight: 600;
+}
+.elementor-widget-sc_contact_form .wt-cf7-form .wpcf7-form label {
+  font-family: 'Roboto', Sans-serif;
+  font-weight: 400;
+}
+.elementor-widget-sc_contact_form
+  .wt-cf7-form
+  .wpcf7-form
+  .wpcf7-form-control-wrap
+  input,
+.elementor-widget-sc_contact_form
+  .wt-cf7-form
+  .wpcf7-form
+  .wpcf7-form-control-wrap
+  .wpcf7-textarea,
+.elementor-widget-sc_contact_form
+  .wt-cf7-form
+  .wpcf7-form
+  .wpcf7-form-control-wrap
+  .wpcf7-form-control.wpcf7-select {
+  font-family: 'Roboto', Sans-serif;
+  font-weight: 400;
+}
+.elementor-widget-sc_contact_form .wt-cf7-form .wpcf7-form .wpcf7-submit {
+  font-family: 'Roboto', Sans-serif;
+  font-weight: 500;
+}
+.elementor-widget-struqta_mailchimp_for_wp .mc4wp-form input[type*='email'] {
+  font-family: 'Roboto', Sans-serif;
+  font-weight: 600;
+}
+.elementor-widget-struqta_mailchimp_for_wp .mc4wp-form input[type*='submit'] {
+  font-family: 'Roboto', Sans-serif;
+  font-weight: 600;
+}
