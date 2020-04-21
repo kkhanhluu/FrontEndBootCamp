@@ -1,0 +1,18 @@
+.btn {
+  border: 1px solid var(--color-white);
+  font-family: var(--font-secondary);
+  padding: 2px;
+  font-size: 1.2rem;
+  cursor: pointer;
+  background-color: transparent;
+
+  &--content {
+    background-color: rgba(255, 255, 255, 0.5);
+    padding: 1rem 3rem;
+    color: var(--color-white);
+    letter-spacing: 1.1px;
+
+    animation: growTo2Side 0.5s ease-in-out 0.5s;
+    animation-fill-mode: both;
+  }
+}

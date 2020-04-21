@@ -1,0 +1,23 @@
+.description {
+  width: 55%;
+  align-self: flex-end;
+  text-align: right;
+  font-size: 1.3rem;
+  color: var(--color-white);
+  background-color: rgba(0, 0, 0, 0.3);
+  backdrop-filter: blur(3px);
+  padding: 2rem 1rem;
+  margin-right: -3rem;
+  padding-right: 4rem;
+  font-family: var(--font-secondary);
+  font-weight: 300;
+
+  animation: moveFromRightToLeft 0.7s ease-in-out;
+  animation-fill-mode: forwards;
+
+  p {
+    opacity: 0;
+    animation: moveFromBottom 0.5s ease-in-out 0.5s;
+    animation-fill-mode: forwards;
+  }
+}

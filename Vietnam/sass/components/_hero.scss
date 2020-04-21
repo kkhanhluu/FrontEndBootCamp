@@ -1,0 +1,15 @@
+.hero {
+  margin: 4rem 0;
+  &--title {
+    font-family: var(--font-main);
+    color: var(--color-white);
+    font-size: 4.5rem;
+    font-weight: 700;
+    width: 40%;
+    line-height: 1.2;
+    margin-bottom: 3rem;
+
+    animation: moveFromLeftToRight 0.7s 0.3s ease-in-out;
+    animation-fill-mode: both;
+  }
+}

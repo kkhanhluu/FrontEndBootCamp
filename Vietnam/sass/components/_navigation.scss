@@ -1,0 +1,63 @@
+.navigation {
+  width: 80%;
+  align-self: flex-end;
+  margin-right: -3rem;
+  display: flex;
+  justify-content: flex-end;
+  animation: moveFromRightToLeft 0.5s ease-in-out;
+  animation-fill-mode: forwards;
+  animation-delay: 1s;
+  opacity: 0;
+
+  &--list {
+    list-style: none;
+    display: flex;
+  }
+
+  &--item {
+    background-color: var(--color-white);
+    padding: 3rem;
+  }
+
+  &--link {
+    display: flex;
+    flex-direction: column;
+    font-size: 1.3rem;
+    text-decoration: none;
+    color: var(--color-black);
+    font-family: var(--font-secondary);
+    font-weight: 100;
+    justify-content: center;
+    align-items: center;
+
+    opacity: 0;
+    animation: moveFromBottom 0.5s ease-in-out 1.3s;
+    animation-fill-mode: forwards;
+
+    position: relative;
+
+    &::before {
+      content: '';
+      display: block;
+      width: 1px;
+      height: 1px;
+      background-color: var(--color-blue-light);
+      transition: all 0.3s;
+      position: absolute;
+      bottom: 0;
+    }
+
+    &__title {
+      font-weight: 500;
+      margin-bottom: 1rem;
+    }
+
+    &:hover {
+      color: var(--color-blue-light);
+
+      &::before {
+        width: 100%;
+      }
+    }
+  }
+}
