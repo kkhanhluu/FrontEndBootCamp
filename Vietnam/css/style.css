@@ -44,7 +44,7 @@ section {
   transition: all 0.2s; }
 
 .section-about {
-  background-image: url(../../img/background-4.jpeg);
+  background-image: url(../img/background-4.jpeg);
   background-size: 150% 150%;
   animation: zoomOut 1s cubic-bezier(0.43, 0.44, 0.7, 0.68);
   animation-fill-mode: both;
@@ -52,7 +52,7 @@ section {
 
 .section-vietnam {
   display: none;
-  background-image: url(../../img/background-3.jpeg); }
+  background-image: url(../img/background-3.jpeg); }
   .section-vietnam:target {
     display: flex; }
   .section-vietnam:target ~ .section-about {
@@ -60,7 +60,7 @@ section {
 
 .section-culture {
   display: none;
-  background-image: url(../../img/background-2.jpeg); }
+  background-image: url(../img/background-2.jpeg); }
   .section-culture:target {
     display: flex; }
   .section-culture:target ~ .section-about {

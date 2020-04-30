@@ -60,7 +60,7 @@ section {
 }
 
 .section-about {
-  background-image: url(../../img/background-4.jpeg);
+  background-image: url(../img/background-4.jpeg);
   background-size: 150% 150%;
 
   animation: zoomOut 1s cubic-bezier(0.43, 0.44, 0.7, 0.68);
@@ -71,7 +71,7 @@ section {
 .section-vietnam {
   display: none;
 
-  background-image: url(../../img/background-3.jpeg);
+  background-image: url(../img/background-3.jpeg);
 
   &:target {
     display: flex;
@@ -85,7 +85,7 @@ section {
 .section-culture {
   display: none;
 
-  background-image: url(../../img/background-2.jpeg);
+  background-image: url(../img/background-2.jpeg);
 
   &:target {
     display: flex;
